@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/cupertino/jquery-ui.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="ASSET_ACCOUNT.css" />
+    <link rel="stylesheet" href="user.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>FoodHunter - Setting</title>
+  </head>
+
+  <body>
+    <div class="navro">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="login.html">FoodHunters</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="../beranda.html">Beranda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tranding </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="../spain.html">Spain</a></li>
+                  <li><a class="dropdown-item" href="../korea.html">Korea</a></li>
+                  <li><a class="dropdown-item" href="../japan.html">Japan</a></li>
+                  <li><a class="dropdown-item" href="../amerika.html">Amerika</a></li>
+                  <li><a class="dropdown-item" href="../belanda.html">Belanda</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="../tranding.html">Tranding Menu </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Traditional </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="jakarta.html">Jakarta</a></li>
+                  <li><a class="dropdown-item" href="jabar.html">Jawa Barat</a></li>
+                  <li><a class="dropdown-item" href="jatim.html">Jawa Timur</a></li>
+                  <li><a class="dropdown-item" href="sumatra.html">Sumatra</a></li>
+                  <li><a class="dropdown-item" href="bali.html">Bali</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="traditional.html">Traditional Menu </a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Organic </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="snack.html">Snack</a></li>
+                  <li><a class="dropdown-item" href="fruit.html">Fruit</a></li>
+                  <li><a class="dropdown-item" href="vegetable.html">Vegetable</a></li>
+                  <li><a class="dropdown-item" href="icecream.html">Ice Cream</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="organic.html">Organic Menu</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="explore.html">explore</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saran</a>
+              </li>
+              <form class="d-flex col-lg-3">
+                <input class="px-3 search" type="search" placeholder="Search" aria-label="Search" />
+                <button class="btn0" type="submit" href="login.html">Search</button>
+              </form>
+            </ul>
+            <div class="action">
+              <div class="profile" onclick="menuToggle()">
+                <img src="img/sunda.jpg" alt="" width="90" height="90" />
+              </div>
+              <div class="menu">
+                <h3>User FoodHunters <br /><span> Bali, Indonesia</span></h3>
+                <ul>
+                  <li><img src="img/user-1.png" alt="" width="50" height="20" /><a href="Account.html">My Profile</a></li>
+                  <li><img src="img/edit.png" alt="" width="50" height="20" /><a href="Edit Profile.html">Edit Profile</a></li>
+                  <li><img src="img/inbox.png" alt="" width="50" height="20" /><a href="#">Inbox</a></li>
+                  <li><img src="img/settings.png" alt="" width="50" height="20" /><a href="Setting.html">Settings</a></li>
+                  <li><img src="img/question.png" alt="" width="50" height="20" /><a href="Help.html">Help</a></li>
+                  <li><img src="img/question.png" alt="" width="50" height="20" /><a href="AboutUs.html">About Us</a></li>
+                  <li><img src="img/log-out.png" alt="" width="50" height="20" /><a href="login.html">Log-Out</a></li>
+                </ul>
+              </div>
+            </div>
+            <script>
+              function menuToggle() {
+                const toggleMenu = document.querySelector('.menu');
+                toggleMenu.classList.toggle('active');
+              }
+            </script>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <br />
+    <section class="Setting">
+      <div class="container">
+        <div id="accordionGroup">
+          <h3>Wallpaper</h3>
+          <div>
+            <div class="mb-3">
+              <label for="formFile" class="form-label">Choose image in directory</label>
+              <input class="form-control" type="file" id="formFile" />
+            </div>
+          </div>
+          <h3>Notification</h3>
+          <div>
+            <p>Sound</p>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+              <label class="form-check-label" for="flexRadioDefault1"> ON </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked />
+              <label class="form-check-label" for="flexRadioDefault2"> OFF </label>
+            </div>
+          </div>
+          <h3>Privacy</h3>
+          <div>
+            <p>Show my picture</p>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked />
+              <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+            </div>
+            <br />
+            <p>Show my profession</p>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked />
+              <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+            </div>
+          </div>
+          <h3>Font</h3>
+          <div>
+            <label for="customRange3" class="form-label">Adjustment</label>
+            <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3" />
+            <br />
+            <p>Font style</p>
+            <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+              <option selected>Pick your font</option>
+              <option value="1">Calibry</option>
+              <option value="2">Hallowen</option>
+              <option value="3">Comic Sans</option>
+              <option value="4">Arabic style</option>
+              <option value="5">Verdana</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <script>
+        $('#accordionGroup').accordion({
+          animate: true,
+          collapsible: true,
+        });
+      </script>
+    </section>
+    <section class="news py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-9 m-auto text-center text-dark">
+            <h1>Join Our Secret Society</h1>
+            <input type="text" class="px-3" placeholder="enter your email" />
+            <button class="btn2">submit</button>
+          </div>
+        </div>
+        <div class="row pt-5">
+          <div class="col-lg-11">
+            <div class="row">
+              <div class="col-lg-3 text-dark">
+                <h5 class="pb-3">CUSTOMER CARE</h5>
+                <p>Regular</p>
+                <p>On Time</p>
+                <p>Always Care</p>
+              </div>
+              <div class="col-lg-3 text-dark">
+                <h5 class="pb-3">CUSTOMER CARE</h5>
+                <p>Regular</p>
+                <p>On Time</p>
+                <p>Always Care</p>
+              </div>
+              <div class="col-lg-3 text-dark">
+                <h5 class="pb-3">CUSTOMER CARE</h5>
+                <p>Regular</p>
+                <p>On Time</p>
+                <p>Always Care</p>
+              </div>
+              <div class="col-lg-3 text-dark">
+                <h5 class="pb-3">CUSTOMER CARE</h5>
+                <span><i class="fab fa-facebook"></i></span>
+                <span><i class="fab fa-instagram"></i></span>
+                <span><i class="fab fa-twitter"></i></span>
+                <span><i class="fab fa-google-plus"></i></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="text-dark" />
+        <p class="text-center text-dark">Copyright ©2021 All right reserved | This template is made with by Faryzen</p>
+      </div>
+    </section>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

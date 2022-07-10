@@ -1,0 +1,195 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Navbar CSS */
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(58, 58, 58);
+  font-family: 'Playfair Display', serif;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(133, 255, 174);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(133, 255, 174);
+  color: white;
+  border-radius: 60px;
+  font-weight: 600;
+}
+/* Akhir Navbar CSS */
+
+.main {
+  background: url(img/food.webp);
+  font-family: 'Lobster', cursive;
+  background-size: cover;
+  height: 80vh;
+  position: sticky;
+  background-position: 60% 85%;
+  width: 100%;
+}
+#unc {
+  font-family: 'Lobster', cursive;
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  font-size: 110%;
+  border: none;
+  margin: auto;
+  outline: none;
+  text-decoration: inherit;
+  background-color: rgb(133, 255, 174);
+  color: white;
+  font-weight: 600;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(117, 221, 172);
+  transition: 0.5s;
+}
+
+.btn1-vbn {
+  color: white;
+  text-decoration: inherit;
+  transition: 0.5s;
+}
+.btn1-vbn:hover {
+  color: white;
+  text-decoration: inherit;
+}
+h1 {
+  font-weight: 700;
+}
+.card:hover {
+  box-shadow: -2px -1px 25px -4px rgba(133, 255, 174);
+  -webkit-box-shadow: -2px -1px 25px -4px rgba(133, 255, 174);
+  -moz-box-shadow: -2px -1px 25px -4px rgba(133, 255, 174);
+  transition: 0.4s;
+}
+.apple {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(img/pare.webp) no-repeat;
+  background-size: cover;
+  height: 80vh;
+  background-position: 60% 80%;
+  width: 100%;
+}
+.apple h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 300%;
+}
+.news {
+  position: unset;
+  background-color: rgba(133, 255, 174);
+  color: white;
+}
+.btn2 {
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid rgba(133, 255, 174);
+  font-weight: 600px;
+}
+.news input {
+  height: 45px;
+  width: 55%;
+  border: 2px solid rgba(133, 255, 174);
+  outline: none;
+  background: white;
+  color: rgb(34, 31, 31);
+  margin-top: 20px;
+  font-weight: 600px;
+}
+.news::placeholder {
+  color: black;
+}
+.news p {
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 10px;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.index-banner {
+  height: 450px;
+}
+
+.index-banner h1 {
+  display: block;
+  width: 560px;
+  margin: 0 auto;
+}
+
+.index-links {
+  overflow: hidden;
+}
+
+.index-links div {
+  margin: 20px 10px 0;
+  height: 230px;
+  background-color: #f2f2f2;
+  float: left;
+}
+
+.index-boxlink-square {
+  width: calc(25% - 20px) !important;
+}
+
+.index-boxlink-rectangle {
+  width: calc(50% - 20px) !important;
+}
+
+.index-links div h3 {
+  line-height: 180px;
+}
+
+/* photo navabr akun */
+#photo {
+  margin-left: 20px;
+}
+/* akhir photo navabr akun */
+
+/* preview */
+.gallery {
+  margin: 10px 50px;
+}
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+  width: 200px;
+}
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
+/* preview */

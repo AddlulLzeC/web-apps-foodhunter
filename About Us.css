@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300&family=Open+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Navbar CSS */
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(58, 58, 58);
+  font-family: 'Playfair Display', serif;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(133, 255, 174);
+}
+.btn1 {
+  height: 45px;
+  width: 35%;
+  font-size: 110%;
+  border: none;
+  outline: none;
+  text-decoration: inherit;
+  background-color: rgb(133, 255, 174);
+  color: white;
+  font-weight: 600;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(117, 221, 172);
+  transition: 0.5s;
+}
+.btn1-vbn {
+  color: white;
+  text-decoration: inherit;
+  transition: 0.5s;
+}
+.btn1-vbn:hover {
+  color: white;
+  text-decoration: inherit;
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(133, 255, 174);
+  color: white;
+  border-radius: 60px;
+  font-weight: 600;
+}
+
+.Developer {
+  background: rgb(90, 231, 137);
+  font-family:'Josefin Sans', sans-serif;
+  background-size: cover;
+  height: 130vh;
+  background-position: 90% 50%;
+  width: 100%;
+  padding-top: 2%;
+}
+
+.wrapper {
+  margin-top: 2%;
+}
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+  border-radius: 15px;
+}
+
+.team .team_member h3 {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team_member .team_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 43%;
+  transform: translateX(-50%);
+}
+
+.team .team_member .team_img img {
+  width: 150px;
+  height: 120px;
+  padding: 10px;
+}

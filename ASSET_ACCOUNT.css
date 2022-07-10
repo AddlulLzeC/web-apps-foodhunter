@@ -1,0 +1,313 @@
+/*ASSET AKUN*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Navbar CSS */
+.navbar-brand {
+  font-size: 2rem;
+  color: rgb(58, 58, 58);
+  font-family: 'Playfair Display', serif;
+}
+.navbar-brand:hover {
+  color: black;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(133, 255, 174);
+}
+.btn0 {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: rgb(133, 255, 174);
+  color: white;
+  border-radius: 60px;
+  font-weight: 600;
+}
+/* Akhir Navbar CSS */
+.btn1 {
+  height: 45px;
+  width: 35%;
+  font-size: 110%;
+  border: none;
+  outline: none;
+  text-decoration: inherit;
+  background-color: rgb(133, 255, 174);
+  color: white;
+  font-weight: 600;
+  border-radius: 60px;
+}
+.btn1:hover {
+  background-color: rgb(117, 221, 172);
+  transition: 0.5s;
+}
+
+.Account {
+  background: url(img/jeruk.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 90% 50%;
+  width: 100%;
+}
+
+button {
+  border: 1px rgb(117, 221, 172);
+  background-color: rgb(133, 255, 174);
+  color: white;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 0px;
+  transition: all 0.3s;
+}
+
+.body {
+  margin-top: 20px;
+  background-color: lightgrey;
+}
+.main {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidebar {
+  background-color: rgb(26, 155, 69);
+  color: white;
+  height: 100%;
+}
+.sidebar a {
+  margin-left: 10px;
+  display: block;
+  color: white;
+  padding-bottom: 10px;
+  font-size: 30px;
+  text-decoration: none;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  background-color: whitesmoke;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@300&family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Developer {
+  background: rgb(90, 231, 137);
+  font-family: 'Josefin Sans', sans-serif;
+  background-size: cover;
+  height: 120vh;
+  background-position: 90% 50%;
+  width: 100%;
+}
+
+.wrapper {
+  margin-top: 10%;
+}
+
+.wrapper h1 {
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team {
+  display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member {
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+}
+
+.team .team_member h3 {
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .team_member p.role {
+  color: #ccc;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 12px 0;
+}
+
+.team .team_member .team_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -50px;
+  left: 43%;
+  transform: translateX(-50%);
+}
+
+.team .team_member .team_img img {
+  width: 150px;
+  height: 120px;
+  padding: 10px;
+}
+
+.biodata {
+  background: url(img/jeruk.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: 90% 50%;
+  width: 100%;
+}
+
+body {
+  background: #f3f3f3;
+}
+
+.wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 400px;
+  width: 900px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0);
+  padding-top: 2%;
+}
+
+.wrapper .left {
+  width: 35%;
+  background: linear-gradient(to right, #01a9ac, #01dbdf);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #ffff;
+  padding-top: 2%;
+}
+
+.wrapper .left img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.wrapper .left h4 {
+  margin-bottom: 10px;
+}
+
+.wrapper .left p {
+  font-size: 12px;
+}
+
+.wrapper .right {
+  width: 65%;
+  background: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 30px 25px;
+}
+
+.wrapper .right .info h3,
+.wrapper .right .Email h3 {
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .Email_data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper .right .info_data .data,
+.wrapper .right .Email_data .data {
+  width: 45%;
+}
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .Email_data .data h4 {
+  color: #353c4e;
+  margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .Email_data .data p {
+  font-size: 13px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+.wrapper .social_media ul {
+  display: flex;
+}
+
+.wrapper.social_media ul li {
+  width: 45px;
+  height: 45px;
+  background: linear-gradient(to right, #01a9ac, #01dbdf);
+  margin-right: 10px;
+  border-radius: 5px;
+  line-height: 45px;
+  text-align: center;
+}
+
+.wrapper.social_media ul li a {
+  color: #fff;
+  display: block;
+  font-size: 18px;
+}
+
+.moto {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #919aa3;
+}
+
+.footer {
+  background-color: rgb(26, 155, 69);
+  color: white;
+}
+
+.Setting {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 56vh;
+  background-position: 90% 50%;
+  width: 100%;
+}
